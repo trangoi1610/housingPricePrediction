@@ -9,7 +9,8 @@ The dataset contains information about different housing districts in California
 The objective is to build a regression model that can accurately estimate housing prices based on these features.
 
 # Key Steps
-## 1️. Data Loading & Cleaning
+
+**1️. Data Loading & Cleaning**
 
 Loaded the dataset (housing.csv) using Pandas
 
@@ -17,7 +18,7 @@ Checked missing values and dropped rows with nulls
 
 Split the dataset into training (80%) and testing (20%) sets
 
-## 2️. Feature Engineering
+**2️. Feature Engineering**
 
 Encoded categorical variable ocean_proximity using one-hot encoding
 
@@ -30,7 +31,7 @@ bedroom_ratio = total_bedrooms / total_rooms
 
 household_rooms = total_rooms / households
 
-## 3️. Exploratory Data Analysis (EDA)
+**3️. Exploratory Data Analysis (EDA)**
 
 Visualized feature distributions using histograms
 
@@ -38,16 +39,14 @@ Created scatter maps (latitude vs longitude) colored by median_house_value
 
 Used correlation heatmaps to identify strongest predictors
 
-## 4️. Model Training
-
+**4️. Model Training**
 Model: Linear Regression
 
 Library: scikit-learn
 
 Achieved an R² score of 0.67 on the test set
 
-## 5️. Visualization
-
+**5️. Visualization**
 Distribution of housing values
 
 Correlation heatmap
