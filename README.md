@@ -1,5 +1,5 @@
 # California Housing Price Prediction
-<img width="1000" height="667" alt="image" src="https://github.com/user-attachments/assets/42b87e7d-7714-4459-a6c7-38e57f19720b" />
+<img width="1200" height="779" alt="image" src="https://github.com/user-attachments/assets/93b124a1-d3ea-41ff-9b02-55e439b974cd" />
 
 This project aims to predict median house prices in California using demographic and geographic data.
 It demonstrates skills in data preprocessing, exploratory data analysis (EDA), feature engineering, and linear regression modeling using Python and Scikit-learn.
